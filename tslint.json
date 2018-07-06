@@ -1,0 +1,39 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+      "tslint:recommended", "tslint-eslint-rules", "tslint-react"
+    ],
+    "jsRules": {},
+    "rules": {
+      "semicolon": [true, "never"],
+      "quotemark": [true, "single"],
+      "object-literal-sort-keys": false,
+      "trailing-comma": [true, {"multiline": "never", "singleline": "never"}],
+      "no-var-requires": false,
+      "no-console": false,
+      "interface-name": [true, "never-prefix"],
+      "space-before-function-paren": true,
+      "no-empty": false,
+      "space-within-parens": true,
+      "no-trailing-whitespace": true,
+      "align": true,
+      "indent": [true, "spaces", 2],
+      "ter-indent": [true, 2],
+      "no-irregular-whitespace": true,
+      "one-line": [true, "check-catch", "check-finally", "check-else", "check-whitespace"],
+      "whitespace": true,
+      "noImplicitAny": false,
+      "react/jsx-indent": [
+        "error",
+        2
+      ],
+      "jsx-no-multiline-js": false,
+      "jsx-self-close": false,
+      "jsx-no-string-ref": false,
+      "jsx-no-bind": false,
+      "jsx-boolean-value": false,
+      "jsx-no-lambda": false,
+      "jsx-curly-spacing": false
+    },
+    "rulesDirectory": []
+}

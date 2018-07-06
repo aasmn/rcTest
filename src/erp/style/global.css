@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Microsoft YaHei', sans-serif;
+}
+
+#root {
+    height: 100%;
+}
+.m-list-item{
+    cursor: pointer;
+}
+.m-list-item:hover{
+    background-color: #1890ff;
+    color: #fff;
+}
+.m-list-item .ant-list-item-action{
+    margin-right: -16px;
+}
+.m-list-item .ant-btn{
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    background: transparent;
+    border: none;
+}
+.m-list-item.active{
+    background-color: #1890ff;
+    color: #fff;
+}
+.hide{
+    display: none!important;
+}
+.pull-right{
+    float: right!important;
+}
+.pull-left{
+    float: left!important;
+}
+form .ant-select:only-child, form .ant-cascader-picker:only-child{
+    top: 0;
+}
+.ant-form .ant-select:only-child{
+    top: 4px;
+}
+.ant-table{
+    font-family: inherit;
+    color: #000;
+    font-size: 12px;
+}
+.col2-form .ant-form-item{
+    margin-bottom: 6px;
+    width: 50%;
+    display: inline-block;
+}
+.col2-form .ant-form-item:last-of-type{
+    width: 100%;
+}
+.col2-form .one-line {
+    display: block;
+    width: 100%;
+}
+.col2-form .one-line .ant-form-item-label{
+    width: 17%;
+}
+.col2-form .one-line .ant-form-item-control-wrapper{
+    width: 79%;
+}
+.ant-tag-checkable {
+    background-color: #eee;
+    margin: 3px;
+    border: 1px solid #ccc;
+}
+.ant-tag-checkable.ant-tag-checkable-checked {
+    background-color: #1890ff;
+}
+.ant-modal-body{
+    padding:  12px;
+}
+.ant-modal-header{
+    background: #003466;
+}
+.ant-modal-title{
+    color: #fff;
+}
+.ant-modal-close-x{
+    color: #fff;
+}
+.track-list .ant-list-item{
+    align-items: left;
+    flex-direction: column;
+}
+.track-list .ant-list{
+    max-height: 120px;
+    overflow: auto;
+} 
+.track-list .ant-list-item-content{
+    color: #000
+}
+.remark-msg {
+    margin: 7px 5px 0 0;
+    width: 6px;
+    height: 6px;
+    float: left;
+    background: red;
+    border-radius: 3px;
+}
+.text-right{
+    text-align: right;
+}
+.cblist:after,.cblist:before{
+    content: '';
+    clear: both;
+    display: block;
+    height: 0;
+}
+.cblist .ant-checkbox-wrapper{
+    float: left;
+    min-width: 150px;
+    margin-left: 8px;
+}
+.ant-input-group-addon{
+    cursor: pointer;
+}
+
+.mark-style{
+    width: 30px;
+    height: 20px;
+    background-color: green;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #fff;
+    float: left;
+}
+.mark-style-mark{
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 10px;
+    color: #fff;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+.mark-style-mark:before{
+    content: '注'
+}
+.mark-style-yellow{
+    background-color: rgb(255, 204, 51);
+}
+.mark-style-yellow:before{
+    content:'低';
+}
+.mark-style-blue{
+    background-color: blue;
+}
+.mark-style-blue:before{
+    content:'中';
+}
+.mark-style-red{
+    background-color: red;
+}
+.mark-style-red:before{
+    content:'高';
+}
+.gutter-example {
+    position: relative;
+}
+.wrap-switch{
+    position: absolute;
+    right: 0;
+    width: 155px;
+    z-index: 99;
+}
+.wrap-switch .switch {
+    margin-bottom: 15px;
+
+}
+.wrap-switch .description {
+    clear: both
+}
+.explain {
+    overflow: hidden;
+    margin-top: 20px;
+}
+.explain .label {
+    float: left;
+}
+.explain .content {
+    float: left
+}
+.tabs-record .ant-tabs-nav-scroll {
+    text-align: center
+}
+.table-row {
+    background: #fff;
+    border-radius: 4px 4px 0 0;
+    display: table;
+    border-top: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
+    margin-bottom: 10px;
+}
+.table-row ul {
+    list-style: none;
+    display: table;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #e8e8e8;
+}
+.table-row li {
+    display: table-cell;
+    padding: 8px;
+    width: 100px;
+    border-right: 1px solid #e8e8e8;
+}
+div.react-viewer-mask{
+    position: fixed;
+}
+div.react-viewer-close{
+    position: fixed;
+}
+div.react-viewer-canvas{
+    position: fixed;
+}
+div.react-viewer-footer{
+    position: fixed;
+}
